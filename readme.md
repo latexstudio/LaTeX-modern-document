@@ -1,11 +1,11 @@
-# LaTeX-modern-document
+# LaTeX-modern-document (no-cover)
 LaTeX-modern-document is a LaTeX template to create professional looking reports quickly and effortlessly.
 
 # preview
 
-| cover page | sample page |
-| :------------------: | :------------------: |
-| [![A custom title page](examples/cover-page.png)](examples/document.pdf) | [![A basic example page](examples/page.png)](examples/document.pdf) |
+| sample page |
+| :------------------: |
+| [![A basic example page](examples/page.png)](examples/document.pdf) |
 
 # Dependencies
 * A functional LaTeX environment (TeXLive for example).
@@ -17,7 +17,7 @@ To use this document you first have to customize it to your liking via the `conf
 * you can compile your document with the command `pdflatex [name].tex`.
 
 ## With a software
-* VS code (avec l'extension LaTeX Workshop) ;
+* VS code
 * TeXMaker
 * Lyx
 * ...
@@ -35,12 +35,10 @@ To use this document you first have to customize it to your liking via the `conf
 From the `config.tex` file you can customize : 
 * The main color of the document
 * The color of the text on the header
-* The elements of the front page (author, title, date, logo, page background, ...)
 * The header image of the pages
 
 ## Features
 
-* Customizable cover page
 * Clean style (colored header, modern typography)
 * Three levels of numbering (I, 1, a)
 * Automatic page numbering

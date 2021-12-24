@@ -64,14 +64,6 @@
 %page numbering style
 \rfoot{\thepage \hspace{1pt} / \pageref{LastPage}}
 
-
-%style toc
-\hypersetup{
-    colorlinks=true, 
-    linktoc=all,     
-    linkcolor=black,
-}
-
 %style section
 \renewcommand*\thesection{\roman{section}}
 
